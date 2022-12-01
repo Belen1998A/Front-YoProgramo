@@ -1,0 +1,107 @@
+#Franja
+{
+   /* background: linear-gradient(30deg,  rgb(237, 153, 213),rgb(249, 201, 235));*/
+   background: linear-gradient(30deg,  #EB4665,#D555B0);
+    position: absolute;
+    margin-top: 0;
+    width: 100%;
+    height: 90px;
+}
+
+#Franja p 
+{
+
+    background: black;
+    font-family: system-ui; 
+    font-weight: bold;
+    font-size: 30px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.wrapper ul 
+{
+    list-style: none;
+}
+
+.wrapper ul li 
+{
+    height: 70px;
+    width: 60px;
+    text-align: center ;
+    float: left;
+    cursor: pointer;   
+}
+
+.wrapper ul li .fa
+{
+    color: white;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+} 
+
+
+
+.wrapper ul li:hover .fa-facebook
+{
+    color: blue;
+    transition: all 0.5s ease;
+}
+
+
+.wrapper ul li:hover .fa-whatsapp
+{
+   color:  #00bb2d ;
+    transition: all 0.5s ease;
+}
+
+
+.wrapper ul li:hover .fa-github
+{
+    color: black;
+    transition: all 0.5s ease;
+    
+}
+
+div#profile-background img
+{ 
+ background-color: rgba(0,0,0,0.8);
+  height: 500px;
+ width: 100%;
+}
+
+
+
+  .profile-image{
+      border-radius: 50%;
+      width: 180px;
+      height: 180px;
+      margin-top: -110px;
+      z-index: 1;
+      margin-left: 13px;
+      
+  }
+
+#botones
+{
+    position: relative; 
+    float:left; 
+    margin-left: 7px;
+    background: linear-gradient(30deg,  #EB4665,#D555B0);
+    color: floralwhite;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#logo-betos {
+    width: 140px;
+    height: 90px;
+  
+   
+    margin-right: 10px;
+    
+    float: left;
+   
+  }
