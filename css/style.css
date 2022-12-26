@@ -1,3 +1,10 @@
+#container
+{
+    width: 800px;
+    height: 300px;
+    margin: auto;
+}
+
 #Franja
 {
    /* background: linear-gradient(30deg,  rgb(237, 153, 213),rgb(249, 201, 235));*/
@@ -104,4 +111,11 @@ div#profile-background img
     
     float: left;
    
+  }
+
+  #cartas
+  {
+      width: auto; 
+      margin: auto;
+      justify-content: center;
   }
